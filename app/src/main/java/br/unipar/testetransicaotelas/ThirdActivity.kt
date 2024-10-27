@@ -23,7 +23,7 @@ class ThirdActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_second)
+        setContentView(R.layout.activity_third)
 
         // Inicialização do DrawerLayout e NavigationView
         drawerLayout = findViewById(R.id.drawer_layout)
@@ -31,7 +31,7 @@ class ThirdActivity : AppCompatActivity() {
         // Inicialização do TabLayout e dos botões para navegação
         val tabLayout = findViewById<TabLayout>(R.id.tabTelas)
         val btn1 = findViewById<Button>(R.id.btnTela1)
-        val btn2 = findViewById<Button>(R.id.btnTela3)
+        val btn2 = findViewById<Button>(R.id.btnTela2)
 
         // Adição de abas no TabLayout com nomes personalizados
         tabLayout.addTab(tabLayout.newTab().setText("Tela 1"))
