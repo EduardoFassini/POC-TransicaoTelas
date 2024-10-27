@@ -135,6 +135,7 @@ class SecondActivity : AppCompatActivity() {
         tabLayout.getTabAt(1)?.select()   // Deixa a aba "Tela 2" selecionada
     }
 
+
     // Sincroniza o estado do Drawer Toggle com as mudanças do Drawer Layout
     override fun onPostCreate(savedInstanceState: Bundle?) {
         super.onPostCreate(savedInstanceState)

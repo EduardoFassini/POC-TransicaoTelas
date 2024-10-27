@@ -139,6 +139,7 @@ class ThirdActivity : AppCompatActivity() {
         toggle.syncState()
     }
 
+
     // Controla o botão de voltar do dispositivo para fechar o Drawer antes de sair da Activity
     override fun onBackPressed() {
         if (drawerLayout.isDrawerOpen(navView)) {
